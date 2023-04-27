@@ -10,12 +10,12 @@ while modalidade != 1 and modalidade != 2 and modalidade != 3:
 #tipo de jogo 1 humano x ser humaninho (desenvolvido por Tarso e Falcão)
 #Este é um trecho de código escrito na linguagem de programação Python que contém uma estrutura condicional que verifica se a variável "modalidade" é igual a 1.
 #Se for igual a 1, o programa pede que o usuário insira o nome de dois jogadores e, em seguida, apresenta as opções de jogadas disponíveis (pedra, papel ou tesoura).
-#O programa, então, solicita que cada jogador faça sua escolha, digitando um número que corresponde a uma das opções apresentadas. 
+#O programa, então, solicita que cada jogador faça sua escolha, digitando um número que corresponde a uma das opções apresentadas.
 #Em seguida, o programa atribui o valor digitado pelo jogador 1 à variável "jogador1" e o valor digitado pelo jogador 2 à variável "jogador2".
 #Além disso, o programa define as variáveis "sair", "pontos1" e "pontos2" como 0, e a partir desse ponto, essas variáveis podem ser usadas para controlar o
 #fluxo do programa e armazenar a pontuação de cada jogador.
 
-Caso a variável "modalidade" não seja igual a 1, o restante do código não será executado e o programa continuará sua execução a partir do próximo trecho de código.
+#Caso a variável "modalidade" não seja igual a 1, o restante do código não será executado e o programa continuará sua execução a partir do próximo trecho de código.
 if modalidade == 1:
     nome1 = input("\nDigite o nome do primeiro player: ")
     nome2 = input("Digite o nome do segundo player: ")
@@ -123,7 +123,7 @@ elif modalidade == 2:
 
 #tipo de jogo 3 - Skynet vs Skynet
 #feito por Ferraz e Tarso
-#O código parece estar completo e funcionando para o jogo de Pedra-Papel-Tesoura com dois jogadores controlados pela máquina, ou seja, na modalidade 3.
+#O código está ompleto e funcionando para o jogo de Pedra-Papel-Tesoura com dois jogadores controlados pela máquina, ou seja, na modalidade 3.
 #O jogo é interrompido quando o usuário digita 0 em vez de um número para continuar jogando.
 #Caso o usuário deseje continuar o jogo, ele terá que digitar qualquer número diferente de zero. Em seguida, os jogadores (controlados pela máquina) escolhem aleatoriamente entre Pedra, Papel e Tesoura.
 #As opções escolhidas pelos jogadores são comparadas e o resultado é mostrado na tela, juntamente com o placar atual.
